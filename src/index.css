@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: black;
+  color: white;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.image-content {
+  padding-top: 10%;
+  width: 80%;
+  height: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.text-content {
+  padding-top: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+.text-content h1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: var(--project-heading-font-size)
+}
+.text-content h1 a {
+  text-decoration: none;
+  color: white;
+}
+.text-content h1 a:hover {
+  color: var(--color-dark-purple);
+  transition: .2s ease-out;
+}
+
+:root {
+  --canvas-font-size: 2rem;
+  --resume-font-size: 1.5rem;
+  --project-heading-font-size: 4rem;
+  --caption-font-size-lg: 10rem;
+  --caption-font-size-md: 2rem;
+
+  --canvas-border-width: 20px;
+  --canvas-border-inner-radius: 10px;
+  --canvas-border-outer-radius: 15px;
+
+  --fontFamily: "Segoe UI","Helvetica Neue","Arial",sans-serif;
+  --color-brown: #E27D60;
+  --color-teal: #85DCB0;
+  --color-orange: #E8A87C;
+  --color-purple: #C38D9E;
+  --color-aqua: #41B3A3; 
+  --color-dark-purple: #713cc8;
+
+  --num-projects: 3;
+  --hero-height: 100vh;
+  --ggs: 1.5;
+}
