@@ -39,7 +39,7 @@ function App() {
           speed={0.2}>
             <div className="image-content">   
                 <img src={require('./assets/2048-racer/2048-window-win.png')}
-                  style={{width: '45%', marginLeft: '60%'}}
+                  style={{width: '45%', marginLeft: '60%', borderRadius: '4px'}}
                 />
             </div>
         </ParallaxLayer>
@@ -77,7 +77,7 @@ function App() {
           offset={1}>
             <div className="image-content">   
                 <img src={require('./assets/pineapple-pics/pineapple-pics-window.png')}
-                  style={{width: '50%', marginLeft: '80%'}}
+                  style={{width: '50%', marginLeft: '80%', borderRadius: '4px'}}
                 />
             </div>
         </ParallaxLayer>
@@ -165,7 +165,7 @@ function App() {
           offset={2}>
             <div className="image-content">   
                 <img src={require('./assets/DS4A/DS4A-geoplot.png')}
-                  style={{width: '20%', marginLeft: '90%', marginTop: '20%'}}
+                  style={{width: '20%', marginLeft: '90%', marginTop: '20%', borderRadius: '2px'}}
                 />
             </div>
         </ParallaxLayer>
