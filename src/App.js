@@ -10,12 +10,12 @@ function App() {
 
   return (
     <div style={{ width: '100%', height: '100%', background: '#253237' }}>
-      <Parallax pages={4}>
+      <Parallax pages={5}>
 
         {/* Background stars */}
         <ParallaxLayer
           speed={0}
-          factor={4}
+          factor={5}
           style={{
             backgroundImage: url('stars', true),
             backgroundSize: 'cover',
@@ -202,7 +202,29 @@ function App() {
           <img src={url('cloud')} style={{ display: 'block', width: '15%', marginLeft: '75%' }} />
         </ParallaxLayer>
 
-        <ParallaxLayer offset={3} speed={0.3} style={{ width: '100vw', display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
+        {/* NU Ice Hockey */}
+        <ParallaxLayer
+          offset={3}
+          style={{ width: '50%', left: '0'}}>
+          <div className="text-content">   
+                <h1><a href="https://twitter.com/nuicehockey">Northwestern Ice Hockey</a></h1>
+                <h2>Canva • Pixlr </h2>
+                <h3>Recruiting flyer distributed to prospective athletes at Northwestern University.</h3>
+          </div>
+        </ParallaxLayer>
+        <ParallaxLayer 
+          speed={0.9}
+          offset={3}>
+            <div className="image-content">   
+                <img src={require('./assets/NUicehockey/flyer.png')}
+                  style={{width: '50%', marginLeft: '55%'
+                }}
+                />
+            </div>
+        </ParallaxLayer>
+
+
+        <ParallaxLayer offset={4} speed={0.3} style={{ width: '100vw', display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
             <h3>Made with 💜 by Elliott Yoon</h3>
         </ParallaxLayer>
 
