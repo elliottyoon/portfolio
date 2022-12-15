@@ -207,7 +207,7 @@ function App() {
           offset={3}
           style={{ width: '50%', left: '0'}}>
           <div className="text-content">   
-                <h1><a href="https://twitter.com/nuicehockey">Northwestern Ice Hockey</a></h1>
+                <h1><a href="https://twitter.com/nuicehockey">NU Ice Hockey</a></h1>
                 <h2>Canva • Pixlr </h2>
                 <h3>Recruiting flyer distributed to prospective athletes at Northwestern University.</h3>
           </div>
