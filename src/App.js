@@ -209,7 +209,7 @@ function App() {
           <div className="text-content">   
                 <h1><a href="https://twitter.com/nuicehockey">NU Ice Hockey</a></h1>
                 <h2>Canva • Pixlr </h2>
-                <h3>Recruiting flyer for the club ice hockey team distributed to prospective athletes at Northwestern University.</h3>
+                <h3>Recruiting flyer for the club ice hockey team distributed both physically and digitally to prospective recruited athletes at Northwestern University.</h3>
           </div>
         </ParallaxLayer>
         <ParallaxLayer 
